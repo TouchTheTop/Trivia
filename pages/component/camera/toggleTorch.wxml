@@ -1,0 +1,17 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <!-- camera.wxml -->
+    <live-pusher id="pusher" url="rtmp://26899.livepush.myqcloud.com/live/26899_9b3e68a6c5?bizid=26899&txSecret=b0f62e19e01058a71814b04cb42ab163&txTime=5B36577F" mode="RTC" autopush bindstatechange="statechange" />
+    <button type='primary' bindtap='start'>开始推流</button>
+    <button type='primary' bindtap='switchCamera'>切换前后摄像头</button>
+    <button type='primary' bindtap='checkLigth'>切换闪光灯</button>
+    闪光灯状态：{{status}}
+  </view>
+  <view class='tip_box'>
+    Bug & Tip:
+    <p>1.ive-pusher目前只对部分品类的应用开放，且需要在网站设置。</p>
+    <p>2.推流地址。目前仅支持 flv, rtmp 格式</p>
+  </view>
+</view>

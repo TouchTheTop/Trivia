@@ -1,0 +1,12 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    
+  <text class="text" data-text="集好友20个赞，送你优惠大礼包"></text>
+  </view>
+  <view class='tip_box'>
+    Class:
+    <p><a href="https://jingyan.baidu.com/article/ae97a646cc27c0bbfd461d11.html">1.css content 的 attr 用法</a></p>
+  </view>
+</view>

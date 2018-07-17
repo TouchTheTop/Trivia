@@ -1,0 +1,12 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' bindtap='setLigth'>设置白色</button>
+    <button type='primary' bindtap='setBlack'>设置黑色</button>
+  </view>
+    <view class='tip_box'>
+    Tips:
+    <p>1.将页面拉取至底部查看效果。</p>
+  </view>
+</view>

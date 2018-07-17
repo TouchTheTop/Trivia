@@ -1,0 +1,18 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' bindtap='upImg' loading="{{loading}}">上传图片</button>  
+    <p>大小(上传前)：{{Size}}KB</p>  
+    <p>尺寸(上传后)：{{afterSize}}</p>  
+    <p>耗时：{{timeOver}}s</p>  
+     <p>Url:{{Key_t}}</p> 
+    <image src="{{Key_t}}" mode="aspectFill" bindload='readImg' wx:if="{{Key_t}}"></image>
+  </view>
+    <view class='tip_box'>
+    Bug & Tip:
+    <p>1.Bug: setData中使用腾讯云地址可能会导致图片渲染不出来的问题（由于上传完成时间不确定），可设置延时器避免。</p>
+    <p>2.Tip: bindload可监听图片的渲染完成，返回图片的尺寸信息。</p>
+    <p>3.Tip: 这里只提供腾讯云COS基本方法，分块、分片上传最好交由后台实现（引入的文件过大）。</p>
+  </view>
+</view>

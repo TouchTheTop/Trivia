@@ -1,0 +1,25 @@
+/* pages/component/input/keycode.wxss */
+
+.content_b{
+  position: relative;
+}
+
+textarea{
+  width: 100%;
+}
+
+.content_b .btn{
+  position: absolute;
+  width: 30px;
+  right: 0;
+  height: 30px;
+  top:0;
+}
+
+.emoji{
+    position: absolute;
+  width: 30px;
+  right: 70px;
+  height: 30px;
+  top:105px;
+}

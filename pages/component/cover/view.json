@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "覆盖原生组件",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

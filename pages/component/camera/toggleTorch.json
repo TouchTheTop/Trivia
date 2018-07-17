@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "切换闪光灯",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

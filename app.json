@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/component/loadFontFace/index",
+    "pages/component/logManager/index",
+    "pages/component/camera/scanCode",
+    "pages/component/WXML/getClass",
+    "pages/component/scanCode/rawData",
+    "pages/component/font/border",
+    "pages/component/camera/toggleTorch",
+    "pages/component/device/Orientation",
+    "pages/component/template/send",
+    "pages/component/window/BackgroundColor",
+    "pages/component/buttons/feedback",
+    "pages/component/cover/view",
+    "pages/module/movable",
+    "pages/component/COS/img",
+    "pages/library/index",
+    "pages/component/input/keycode",
+    "pages/module/getUserInfo",
+    "pages/module/pay",
+    "pages/module/share",
+    "pages/module/ocrText"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

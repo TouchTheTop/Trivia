@@ -1,0 +1,7 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' open-type='feedback'>打开意见反馈</button>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "movable",
+  "usingComponents": {
+    "Qt-header": "../com/header/index"
+  }
+}

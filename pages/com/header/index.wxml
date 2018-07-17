@@ -1,0 +1,6 @@
+  <view class='qt_header'>
+    <image wx:if="{{img}}" mode="widthFix" src='{{img}}'></image>
+    <text>
+    {{en}}</text>
+    <text>{{zh}}</text>
+  </view>

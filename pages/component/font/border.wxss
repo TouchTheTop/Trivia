@@ -1,0 +1,18 @@
+/* pages/component/font/border.wxss */
+.text {
+    position: relative;
+}
+.text::before, .text::after {
+    content: attr(data-text);
+    font-size: 36rpx;
+    color: #fff;
+    font-weight: 800; 
+}
+.text::before {
+    -webkit-text-stroke: 8rpx #000;
+}
+.text::after {
+    position: absolute;
+    top: 9;
+    left: 0;
+}

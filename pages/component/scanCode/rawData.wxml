@@ -1,0 +1,9 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' bindtap='work'>立即扫码</button>
+    <p>path:{{res.path}}</p>
+    <p>rawData:{{res.rawData}}</p>
+  </view>
+</view>

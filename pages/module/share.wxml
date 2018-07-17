@@ -1,0 +1,19 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>    
+    <button open-type='share' type="primary">分享</button>
+  </view>
+        <view class='tip_box'>
+    Tip:
+    <p>1.只有定义了此事件处理函数，右上角菜单才会显示 “转发” 按钮。</p>
+    <p>2.用户点击转发按钮的时候会调用。</p>
+    <p>3.onShareAppMessage可自定义字段：标题，路径，图片。</p>
+    <p>4.onShareAppMessage图片会自适应大小。</p>
+    <p>5.获取普通转发信息：在onload里的options参数可获取到。</p>
+    <p>6.获取普通转发群：设置withShareTicket为true。</p>
+    <p>7.onLaunch, onShow 中options 获取 shareTicket。</p>
+    Bug:
+    <p>1.open-data实测：不显示群名称（官方未回应）。</p>
+  </view>
+</view>

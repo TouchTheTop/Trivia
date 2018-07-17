@@ -1,0 +1,15 @@
+/* pages/module/ocrText.wxss */
+.result_v image{
+width: 100%;
+display: block;
+}
+
+.result_v p{
+font-size: 14px;
+color: #666;
+line-height: 22px;
+}
+
+.result_v text{
+font-size: 14px;
+}

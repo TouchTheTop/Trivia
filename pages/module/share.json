@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "转发",
+  "usingComponents": {
+    "Qt-header": "../com/header/index"
+  }
+}

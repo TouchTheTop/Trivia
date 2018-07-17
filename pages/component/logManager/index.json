@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "日志管理器",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

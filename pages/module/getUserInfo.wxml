@@ -1,0 +1,14 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' bindgetuserinfo='getUserInfo' open-type="getUserInfo">获取用户关键信息</button>
+   <view class='info-box'>
+     <p wx:for="{{userInfo}}">{{index}}:{{item}}</p>
+   </view>
+  </view>
+      <view class='tip_box'>
+    Tip:
+    <p>1.session_key 需调用 wx.login 获取。</p>
+  </view>
+</view>

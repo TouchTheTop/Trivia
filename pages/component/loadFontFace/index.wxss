@@ -1,0 +1,6 @@
+/* pages/component/loadFontFace/index.wxss */
+.content text{
+display: block;
+font-size: 18px;
+line-height: 36px;
+}

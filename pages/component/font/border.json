@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "字体描边",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

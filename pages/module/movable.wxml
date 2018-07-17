@@ -1,0 +1,18 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <view class="section">
+      <movable-area style="height: 200px; width: 200px; background: #eee;">
+        <movable-view style="height: 50px; width: 50px; background: #005aff;" x="{{x}}" y="{{y}}" direction="{{direction}}">
+        </movable-view>
+      </movable-area>
+    </view>
+    <button type='primary' bindtap='setDirection' data-direct="vertical">设置竖直方向</button>
+    <view class='blcok'>
+    <image src='/imgs/att_i.png'></image>
+    移动区域构建后不可设置移动方向。
+    </view>
+
+  </view>
+</view>

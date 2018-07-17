@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class='nav_title'>
+  <text class='title'>组件(Component)实验室</text>
+  <text class='row_btn' data-path="../library/index" bindtap="navigateTo">知识库</text>
+  <image class='row' src='/imgs/row_i.png'></image>
+</view>
+<view class='nav_box'>
+  <view class='nav_box_item' wx:for="{{catagory}}" data-path="{{item.path}}" bindtap="navigateTo">{{item.name}}</view>
+  <view class='nav_box_item all'>全部组件</view>
+  <view class='login_bar'>
+    <button open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo" wx:if="{{!userInfo.nickName}}">点击登录 >></button>
+    <image mode="widthFix" wx:if="{{userInfo.avatarUrl}}" src='{{userInfo.avatarUrl}}'></image>
+    {{userInfo.nickName}}
+     <text class='bar_text' wx:if="{{shareInfo.openGId}}">来自{{shareInfo.openGId}}</text> 
+    <open-data type="groupName" open-gid="{{shareInfo.openGId}}"></open-data>
+</view>
+</view>
+<view class="container btn_s">
+  <rich-text nodes="{{nodes}}"></rich-text>
+  <ul class="page__bd" wx:for="{{js_category}}" wx:for-item="category">
+    <text class='info_top'>{{category.auth}}</text>
+    <li wx:for="{{category.list}}">
+      <view class='weui-flex js_category' data-path="{{item.path}}" bindtap="navigateTo">
+        <p class="weui-flex__item">{{item.name}}</p>
+      </view>
+    </li>
+    </ul>
+  </view>

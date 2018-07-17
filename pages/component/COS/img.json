@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "腾讯云COS上传",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

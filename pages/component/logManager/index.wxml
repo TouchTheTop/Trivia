@@ -1,0 +1,11 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <button type='primary' open-type="feedback">提交日志</button>
+  </view>
+  <view class='tip_box'>
+    Tips:
+    <p>1.用户上传的日志可以通过登录小程序管理后台后进入左侧菜单“客服反馈”页面获取到。</p>
+  </view>
+</view>

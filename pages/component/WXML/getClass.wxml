@@ -1,0 +1,14 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <!-- camera.wxml -->
+    <view id='dom' class='box' style="background:yellow;font-size:14px;">
+    测试节点
+    </view>
+    <button type='primary' bindtap='getStyle'>获取节点样式</button>
+    
+    <p>padding：{{res.padding}}</p>
+    <p>backgroundColor：{{res.backgroundColor}}</p>
+  </view>
+</view>

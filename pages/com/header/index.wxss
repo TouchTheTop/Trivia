@@ -1,0 +1,17 @@
+/* pages/com/header/index.wxss */
+.qt_header text{
+  line-height: 24px;
+  display: block;
+  font-size: 14px;
+}
+.qt_header{
+  padding: 15px 0px;
+}
+.qt_header text:first-child{
+  font-size: 18px;
+  color: #000;
+}
+
+.qt_header image{
+  width: 100px;
+}

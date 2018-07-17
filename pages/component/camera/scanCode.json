@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "相机扫码",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

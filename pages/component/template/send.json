@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发送模版消息",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

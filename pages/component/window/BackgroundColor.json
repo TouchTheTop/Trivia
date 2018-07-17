@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "动态设置窗口的背景色",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

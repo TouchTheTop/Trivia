@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "获取节点样式信息",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

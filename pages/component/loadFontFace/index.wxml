@@ -1,0 +1,14 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <text>正常字体</text>
+    <text style='font-family:Bitstream Vera Serif Bold;'>网络字体</text>
+    <view class="tip" wx:if="{{loading}}">(变身中...)</view>
+  </view>
+  <view class='tip_box'>
+    Tips:
+    <p>1.最新的小程序开发工具咱不支持显示网络字体，在真机上可显示</p>
+    <p>2.方法需写在APP.JS中的onlunch中，回调才生效</p>
+  </view>
+</view>

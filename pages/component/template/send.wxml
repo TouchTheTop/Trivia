@@ -1,0 +1,15 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <form bindsubmit="formSubmit" bindreset="formReset" report-submit="true">
+      <button type='primary' formType="submit">发送模板消息</button>
+      <p>结果:{{msg}}</p>
+    </form>
+  </view>
+  <view class='tip_box'>
+    Tips:
+    <p>1.<text>官方</text>：网络导致的延迟可能影响结果，建议间隔段时间再重试。</p>
+    <p>2.当用户在小程序内发生过提交表单行为且该表单声明为要发模板消息的，开发者需要向用户提供服务时，可允许开发者向用户在7天内推送有限条数的模板消息（1次提交表单可下发1条，多次提交下发条数独立，相互不影响）。</p>
+  </view>
+</view>

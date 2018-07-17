@@ -1,0 +1,33 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <video id="myVideo" bindtap='coverIt' src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" controls="{{false}}" event-model="bubble">
+  <cover-view class="controls" scroll-top="30">
+  {{content}}
+    <cover-view class="play" bindtap="play">
+      <cover-image class="img" src="/imgs/icon_play.png" />
+    </cover-view>
+    <cover-view class="pause" bindtap="pause">
+      <cover-image class="img" src="/imgs/icon_pause.png" />
+    </cover-view>
+    <cover-view class="time">00:00</cover-view>
+  </cover-view>
+    <cover-view class="controls_1">
+    <cover-view class="play show" bindtap="play">
+      <cover-image class="img" bindload="imgload" src="/imgs/icon_play.png" />
+    </cover-view>
+    <cover-view class="pause show" bindtap="pause">
+      <cover-image class="img" src="/imgs/icon_pause.png" />
+    </cover-view>
+    <cover-view class="time">00:00</cover-view>
+  </cover-view>
+</video>
+  </view>
+    <view class='tip_box'>
+    Tip:
+    <p>1.{{str}} 新增 scroll-top 属性。</p>
+    <p>2.{{str}}支持 rotate 和 scale 的样式设置。</p>
+    <p>3.{{str1}} 新增 bindload 和 binderror 事件。</p>
+  </view>
+</view>

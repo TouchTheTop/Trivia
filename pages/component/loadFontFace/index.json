@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText":"动态加载网络字体",
+    "usingComponents": {
+      "Qt-header": "../../com/header/index"
+    }
+}

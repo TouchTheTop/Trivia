@@ -1,0 +1,9 @@
+/* pages/component/camera/toggleTorch.wxss */
+button{
+  margin-top:25px;
+}
+live-pusher {
+  margin: 0 auto;
+  width: 300px;
+  height: 225px;
+}

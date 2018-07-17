@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "监听屏幕方向",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

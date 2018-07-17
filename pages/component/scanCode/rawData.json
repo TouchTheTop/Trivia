@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "扫码返回base64",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

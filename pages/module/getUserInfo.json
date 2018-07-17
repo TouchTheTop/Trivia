@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "获取用户关键信息",
+  "usingComponents": {
+    "Qt-header": "../com/header/index"
+  }
+}

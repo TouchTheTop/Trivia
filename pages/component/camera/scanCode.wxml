@@ -1,0 +1,16 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+    <!-- camera.wxml -->
+    <camera mode="scanCode" flash="auto" binderror="error" bindscancode="knowCode" style="width: 300px; height: 300px;"></camera>
+    结果：{{res}}
+  </view>
+  <view class='tip_box'>
+    Bug & Tip:
+    <p>1.tip: camera 组件是由客户端创建的原生组件，它的层级是最高的，不能通过 z-index 控制层级。可使用 cover-view cover-image覆盖在上面。</p>
+    <p>2.tip: 同一页面只能插入一个 camera 组件。</p>
+    <p>3.tip: 请勿在 scroll-view、swiper、picker-view、movable-view 中使用 camera 组件。</p>
+    <p>4.bug: scan-area 属性目前存在识别区域不准的问题，建议先不指定。</p>
+  </view>
+</view>

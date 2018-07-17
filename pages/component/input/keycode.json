@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "input过滤器",
+  "usingComponents": {
+    "Qt-header": "../../com/header/index"
+  }
+}

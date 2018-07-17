@@ -1,0 +1,33 @@
+<!--pages/component/loadFontFace/index.wxml-->
+<view class='container enter'>
+  <Qt-header en="{{title.en}}" zh="{{title.zh}}"></Qt-header>
+  <view class='content'>
+
+    <button type='primary' loading="{{loading}}" data-up="1" bindtap='startIt' data-direct="vertical">
+      {{loading?'正在识别':'开始识别'}}</button>
+    <view class='result_v'>
+      <image wx:if="{{img}}" src='{{img}}'></image>
+      <text>消耗 {{timeOver}}ms</text>
+      <p wx:for="{{tc_res.tc_content}}">{{item.itemstring}}</p>
+    </view>
+
+  </view>
+
+  <Qt-header en="{{title1.en}}" zh="{{title1.zh}}"></Qt-header>
+  <view class='content'>
+
+    <button type='primary' loading="{{loading1}}" data-up="2" bindtap='startIt'>
+      {{loading1?'正在识别':'开始识别'}}</button>
+    <view class='result_v'>
+      <image wx:if="{{img1}}" src='{{img1}}'></image>
+      <text>消耗 {{timeOver1}}ms</text>
+      <p wx:for="{{bd_res.bd_content}}">{{item.words}}</p>
+    </view>
+
+  </view>
+
+  <view class='tip_box'>
+    Tip:
+    <p>1.关于文本识别其他内容，可在公众号内查看最新文章。</p>
+  </view>
+</view>
